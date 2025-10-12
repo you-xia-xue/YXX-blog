@@ -5,15 +5,21 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  logo: assets/yctf.jpg
   palette: 
  # Palette toggle for light mode
     - scheme: default
+      primary: grey
+      accent: indigo
       toggle:
         icon: material/brightness-7 
         name: 调整为暗色模式
-
+        
+        
     # Palette toggle for dark mode
     - scheme: slate
+      primary: blue grey
+      accent: amber
       toggle:
         icon: material/brightness-4
         name: 调整为亮色模式
@@ -25,4 +31,5 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
 plugins:
-  - blog:
+  - blog
+  - search
