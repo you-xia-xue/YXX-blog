@@ -33,3 +33,4 @@ markdown_extensions:
 plugins:
   - blog
   - search
+  - meta
