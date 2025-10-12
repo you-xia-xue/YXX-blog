@@ -1,4 +1,4 @@
-site_name: 一个神秘的网站
+site_name: 可斤山的个人网站
 site_url: https://mydomain.org/mysite
 theme:
   name: material
@@ -10,13 +10,13 @@ theme:
     - scheme: default
       toggle:
         icon: material/brightness-7 
-        name: Switch to dark mode
+        name: 调整为暗色模式
 
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 调整为亮色模式
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -24,3 +24,5 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+plugins:
+  - blog:
