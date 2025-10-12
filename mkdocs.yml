@@ -3,6 +3,10 @@ site_url: https://mydomain.org/mysite
 theme:
   name: material
   custom_dir: overrides
+  features:
+    - content.code.annotate
+    - content.code.select
+    - content.code.copy
   font:
     text: Roboto
     code: Roboto Mono
@@ -31,7 +35,13 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 plugins:
-  - blog
   - search
   - meta
