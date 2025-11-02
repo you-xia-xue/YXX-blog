@@ -1,16 +1,21 @@
-site_name: 可斤山的个人网站
+site_name: 亚瑟王的王之宝库
 site_url: https://mydomain.org/mysite
+edit_uri: '?query=root/path/docs/'
 theme:
+  language: zh
   name: material
   custom_dir: overrides
   features:
     - content.code.annotate
     - content.code.select
     - content.code.copy
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
   font:
     text: Roboto
     code: Roboto Mono
-  logo: assets/yctf.jpg
+  logo: assets/saber.jpg
   palette: 
  # Palette toggle for light mode
     - scheme: default
@@ -45,3 +50,4 @@ markdown_extensions:
 plugins:
   - search
   - meta
+  - tags
