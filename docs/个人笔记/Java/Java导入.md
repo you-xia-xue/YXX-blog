@@ -13,18 +13,18 @@ package com.youxiaxue.io;//使用一个域名作为包名
 import java.lang.System;//导入java.lang包名中的System类
 public class Main{
 	public static void main(){
-		java.lang.System.out.println("hello World!");
-		System.out.println("hello World!");
+		java.lang.System.out.println("hello World!");//完整方法名
+		System.out.println("hello World!");//简单方法名
 	}
 }
 ```
 我们接下来每条简单解释一下：  
-1. `package com.youxiaxue.io` `package`(包)通常是用来区分不同实现的同名类的。声明包名后，在其他文件调用时还需要输入完整包名才能调用本文件的类  
-	类似于`C/Cpp`的命名空间，作用是把声明的类整合在一个包名下，如果类内部成员不做声明，默认只能在包内调用  
-在`C/Cpp`中我们通过导入库来实现调用库的方法，类似的在`Java`我们调用类，有内置类（可以直接调用），也可以调用外部类（在文件外定义的）,常用的方法类,IDE会自动导入。
-2. `import java.lang` `import`是用
+1. `package com.youxiaxue.io` `package`(包)通常是用来区分不同实现的同名类的(类似于`C/Cpp`的命名空间)把声明的类整合在一个包名下,声明包名后，在其他文件调用时还需要输入完整包名才能调用本文件的类，如果没有声明包名将类将在src目录下(极易发生名字冲突)。如果类不做声明，权限默认只能在包内（文件夹内）调用。  
+在`C/Cpp`中我们通过导入库来实现调用库的方法，类似的在`Java`我们调用类，有内置类（可以直接调用），也可以调用外部类（在文件外定义的）,常用的方法类,IDE会自动导入。  
+2. `import java.lang.System` `import`用来导入外部类，比如该代码导入了`java.lang`包下的`System`类,使得我们可以直接声明`System`类而不需要写出完整包名使用。  
+可以使用形如`java.lang.*`导入包中的所有类**但是不推荐**。
 ## 编译和运行
-我们可以在命令行调用`java`编译器，来编译`.java`文件（需要在对应文件夹）
+我们可以在命令行调用`java`编译器，来编译`.java`文件（需要在对应文件夹调用命令行）
 ``` shell
 javac Main
 ```
@@ -35,6 +35,7 @@ javac Main
 ``` Shell
 java com.youxiaxue.io.Main
 ```
+也可以使用IDE实现
 ## 注释
 注释有三种方法
 ``` java
@@ -44,7 +45,7 @@ java com.youxiaxue.io.Main
 /** 这是 一个文档注释（说明文档用途）
 */
 ```
-前两者和`C/Cpp`一致，但文档注释可以插入标签
+前两者和`C/Cpp`一致，但文档注释可以插入标签  
 通常作为描述文件用[Java 文档注释 | 菜鸟教程](https://www.runoob.com/java/java-documentation.html)
 ## 类型
 类型分为基本类型、引用类型、无类型

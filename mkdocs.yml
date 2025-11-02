@@ -15,6 +15,7 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
   font:
     text: Roboto
     code: Roboto Mono
