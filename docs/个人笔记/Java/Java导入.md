@@ -69,9 +69,9 @@ boolean bool = true;
 ### 引用类型
 ``` java
 int a=1;
-int b=a;//a,b是两块内存，只是b用了a的值
+int b=a;//此处a,b是两块内存，只是b用了a的值
 Point point1 = new Point(1,2)
-Point point2 = point1;//point1和point2指向同一块内存
+Point point2 = point1;//此处point1和point2指向同一块内存
 ```
 我们使用变量名引用使用`new`生成的内存，很像`Cpp`的指针。如果没有初始化，默认值是`null`
 ### 语句
