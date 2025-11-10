@@ -10,9 +10,12 @@ theme:
     repo:fontawesome/brands/git-alt
   custom_dir: overrides
   features:
+    - content.grid
+    - attr_list
+    - md_in_html
     - content.code.annotate
-    - content.code.select
     - content.code.copy
+    - content.code.select
     - navigation.instant
     - navigation.top
     - navigation.tabs
@@ -43,6 +46,8 @@ markdown_extensions:
       permalink: true
   - pymdownx.arithmatex:
       generic: true
+  - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -55,7 +60,14 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+   
 extra_javascript:
   # 引入 MathJax CDN（Material 会自动关联，无需手动调用渲染函数）
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

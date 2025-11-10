@@ -28,23 +28,30 @@
 然后就是链接这样的数据库  
 
 在application.properties/yaml文件内配置
-``` properties
-spring.application.name=包名
-#为“jdbc:mysql://localhost:3306/数据库名字”可选属性(?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC)
-spring.datasource.url=jdbc:mysql://localhost:3306/数据库名?characterEncoding=utf-8
-#这两项就是数据库用户名和密码
-spring.datasource.username=root
-spring.datasource.password=123456
-```
-``` yaml
-spring:
-  application:
-    name: 包名
-  datasource:
-    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8
-    username: root
-    password: 123456
-```
+=== "properties"
+    ``` properties
+    spring.application.name=包名
+    spring.datasource.url=jdbc:mysql://localhost:3306/数据库名
+    #这两项就是数据库用户名和密码
+    spring.datasource.username=root
+    spring.datasource.password=123456
+    ```
+=== "yaml"
+    ``` yaml
+    spring:
+      application:
+        name: 包名
+      datasource:
+        url: jdbc:mysql://localhost:3306/数据库名
+        username: root
+        password: 123456
+    ```
+`jdbc:mysql://localhost:3306/数据库名字`的可选属性:  
+    1. characterEncoding=utf-8  
+    2. useSSL=false  
+    3. serverTimezone=UTC  
+使用?...&...链接  
+
 通常来讲，链接了之后就可以直接启动了！  
 ## 建立映射Pojo层 （持久化映射层）
 这样就可以声明一个实体类了
