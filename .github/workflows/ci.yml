@@ -24,6 +24,8 @@ jobs:
           key: mkdocs-material-${{ env.cache_id }}
           path: ~/.cache 
           restore-keys: |
-            mkdocs-material-
+            mkdocs-material-        
       - run: pip install mkdocs-material 
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-git-authors-plugin 
       - run: mkdocs gh-deploy --force

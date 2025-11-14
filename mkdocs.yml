@@ -78,3 +78,7 @@ plugins:
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
+  - git-committers:
+      repository: you-xia-xue/YXX-blog
+      branch: main
+  - git-authors
