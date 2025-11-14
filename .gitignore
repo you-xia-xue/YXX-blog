@@ -127,6 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+#
 备忘录
 docs/个人笔记/C&Cpp/类型.md
 docs/个人笔记/C&Cpp/数位.md
@@ -140,3 +141,85 @@ docs/个人笔记/C&Cpp/图片/Pasted image 20250824180800.png
 docs/个人笔记/C&Cpp/图片/Pasted image 20250825092131.png
 docs/个人笔记/C&Cpp/图片/Pasted image 20250825095149.png
 docs/个人笔记/C&Cpp/图片/Pasted image 20250831122446.png
+docs/高等数学/微积分(草稿)/微分思想得导数(微商).md
+docs/高等数学/微积分(草稿)/微积分.md
+docs/高等数学/微积分(草稿)/未命名.canvas
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906175555.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906180223.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906181437.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906183653.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906185027.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906190817.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906195120.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906200657.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250906205830.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907074653.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907080443.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907080948.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907081314.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907084524.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907085239.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907134621.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907134639.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907141523.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907142907.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907153052.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907155413.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907162351.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907183133.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907183318.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907184603.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250907185951.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908105029.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908105138.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908105336.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908105443.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908112213.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908131304.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908132755.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908135448.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908143832.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908145043.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908150608.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908150832.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908152435.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908153745.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250908154043.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913141554.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913143354.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913145229.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913145454.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913150313.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913151930.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913152739.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913153457.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913154045.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250913155429.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914150707.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914150911.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914151154.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914151603.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914152159.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914152734.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914155614.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914160020.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914160435.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914160826.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914161308.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914162003.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914162958.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914164141.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914165610.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914171609.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914172103.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914172518.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914172928.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914200729.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914202106.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914212325.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250914212547.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250916122058.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250916123450.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250916124325.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250916125220.png
+docs/高等数学/微积分(草稿)/图片/Pasted image 20250917203053.png

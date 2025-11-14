@@ -20,6 +20,7 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
+    - content.footnote.tooltips
   font:
     text: Roboto
     code: Roboto Mono
@@ -75,3 +76,5 @@ plugins:
   - search
   - meta
   - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
