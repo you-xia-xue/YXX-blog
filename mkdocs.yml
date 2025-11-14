@@ -79,6 +79,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
+      enabled: !ENV
       repository: you-xia-xue/YXX-blog
       branch: main
   - git-authors
