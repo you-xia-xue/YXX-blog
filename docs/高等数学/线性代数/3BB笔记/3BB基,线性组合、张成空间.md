@@ -19,5 +19,4 @@
 ![alt text](../../../assets/Bastic_Vector.png){width=400}
 ## 线性组合
 两个数乘向量的和称为这两个向量的线性组合
-![alt text](<../../../assets/Linear combination.png>)
 Linear combination
